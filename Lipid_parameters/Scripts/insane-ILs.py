@@ -254,10 +254,10 @@ lipidsx[moltype] = (    .5,  .5,  0,  0,  0, -.5, 0,  0,  1,  1,  1,  2,  1,  1,
 lipidsy[moltype] = (     0,   0,  0,  0,  0,  .5, 0,  0,  0,  0,  0, .5,  0,  0,  0 )
 lipidsz[moltype] = (     6,   5,  4,  3,  2,  1,  1,  0,  4,  3,  1,  1,  2,  0, -1)
 lipidsa.update({      #  1    2   3   4   5   6   7   8   9   10  11  12  13  14 15    
-    "A3D"  : (moltype,"  OH   N3  CA GLA CAX CA1 CA2 CA3 CB  GLB CBX CB1 CB2 CB3"), 
-    "A3P"  : (moltype,"  OH   NP  CA GLA CA1 CA2 CA3 CA4 CB  GLB CB1 CB2 CB3 CB4"), 
-    "S1D"  : (moltype,"  OH   N3  CA GLA CA1 CA2 CA3  -  CB  GLB CB1 CB2 CB3 CB4"), 
-    "S12"  : (moltype,"  OH   NP  CA GLA CA1 CA2 CA3  -  CB  GLB CB1 CB2 CB3 CB4"), 
+    "A3D"  : (moltype,"  OH   N1  CA GLA CAX CA1 CA2 CA3 CB  GLB CBX CB1 CB2 CB3"), 
+    "A3P"  : (moltype,"  OH   NP  CA GLA CAX CA1 CA2 CA3 CB  GLB CBX CB1 CB2 CB3"), 
+    "S1D"  : (moltype,"  OH   N3  CA GLA CA1 CA2 CA3  -  CB  GLB CBX CB1 CB2 CB3 CB4"), 
+    "S12"  : (moltype,"  OH   NP  CA GLA CA1 CA2 CA3  -  CB  GLB CBX CB1 CB2 CB3 CB4"), 
     "ALC": (moltype,"  -    NO  C1A C2A C3A -   -   -  C1B C2B C3B  -   -   -"), 
 })
 

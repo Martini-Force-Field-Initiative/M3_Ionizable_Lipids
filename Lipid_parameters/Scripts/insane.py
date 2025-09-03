@@ -239,14 +239,14 @@ lipidsa.update({    # 1    2   3   4   5   6   7   8   9  10  11  12  13  14  15
 
 ## ILs two tails
 moltype = "IONIZABLE LIPIDS2" 
-lipidsx[moltype] = (    .5,  .5,  0,  0,  0, -.5, 0,  0,  1,  1,  1,  2,  1,  1)
-lipidsy[moltype] = (     0,   0,  0,  0,  0,  .5, 0,  0,  0,  0,  0, .5,  0,  0 )
-lipidsz[moltype] = (     6,   5,  4,  3,  2,  1,  1,  0,  4,  3,  1,  1,  2,  0,)
-lipidsa.update({      #  1    2   3   4   5   6   7   8   9   10  11  12  13  14    
-    "A3D"  : (moltype,"  OH   N3  CA GLA CAX CA1 CA2 CA3 CB  GLB CBX CB1 CB2 CB3"), 
-    "AL3"  : (moltype,"  OH   NP  CA GLA CA1 CA2 CA3 CA4 CB  GLB CB1 CB2 CB3 CB4"), 
-    "S1D"  : (moltype,"  OH   N3  CA GLA CA1 CA2 CA3  -  CB  GLB CB1 CB2 CB3 CB4"), 
-    "S12"  : (moltype,"  OH   NP  CA GLA CA1 CA2 CA3  -  CB  GLB CB1 CB2 CB3 CB4"), 
+lipidsx[moltype] = (    .5,  .5,  0,  0,  0, -.5, 0,  0,  1,  1,  1,  2,  1,  1, 1)
+lipidsy[moltype] = (     0,   0,  0,  0,  0,  .5, 0,  0,  0,  0,  0, .5,  0,  0, 0 )
+lipidsz[moltype] = (     6,   5,  4,  3,  2,  1,  1,  0,  4,  3,  1,  1,  2,  0, -1)
+lipidsa.update({      #  1    2   3   4   5   6   7   8   9   10  11  12  13  14  15   
+    "A3D"  : (moltype,"  OH   N1  CA GLA CAX CA1 CA2 CA3 CB  GLB CBX CB1 CB2 CB3"), 
+    "AL3"  : (moltype,"  OH   NP  CA GLA CAX CA2 CA3 CA4 CB  GLB CBX CB2 CB3 CB4"), 
+    "S1D"  : (moltype,"  OH   N3  CA GLA CA1 CA2 CA3  -  CB  GLB CBX CB1 CB2 CB3 CB4"), 
+    "S12"  : (moltype,"  OH   NP  CA GLA CA1 CA2 CA3  -  CB  GLB CBX CB1 CB2 CB3 CB4"), 
     "ALC"  : (moltype,"  -    NO  C1A C2A C3A -   -   -  C1B C2B C3B  -   -   -"), 
 })
 
@@ -257,8 +257,8 @@ lipidsx[moltype] = (    .5,  .5,  1,  0, .5,  0,  1,  0,  0,  0,  1,  1,  1)
 lipidsy[moltype] = (     0,   0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0)
 lipidsz[moltype] = (     7,   6,  5,  5,  4,  3,  3,  2,  1,  0,  2,  1,  0)
 lipidsa.update({      #  1    2   3   4   5   6   7   8   9   10  11  12  13    
-    #"KC2" : (moltype, " N1   CN  GL1 GL2 CX  C1A C1B D2A D3A C4A D2B D3B C4B "),
-    #"KC2H": (moltype, " NP   CN  GL1 GL2 CX  C1A C1B D2A D3A C4A D2B D3B C4B "),
+    "KC2" : (moltype, " N1   CN  GL1 GL2 CX  C1A C1B D2A D3A C4A D2B D3B C4B "),
+    "KC2H": (moltype, " NP   CN  GL1 GL2 CX  C1A C1B D2A D3A C4A D2B D3B C4B "),
     "KP" : (moltype, " NP   CN  GL1 GL2 CX  C1A C1B D2A D3A C4A D2B D3B C4B "),
     "K2" : (moltype, " N1   CN  GL1 GL2 CX  C1A C1B D2A D3A C4A D2B D3B C4B "),
     "KD" : (moltype, " NP       GL1 GL2 CX  C1A C1B D2A D3A C4A D2B D3B C4B "),
