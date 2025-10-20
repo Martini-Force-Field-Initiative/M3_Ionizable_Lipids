@@ -1,0 +1,5 @@
+integrator               = steep
+dt                       = 0.02
+nsteps                   = 10000 
+nstcomm                  = 100
+comm-grps		         = 
