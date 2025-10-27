@@ -1,0 +1,5 @@
+HEADER    water
+COMPND
+SOURCE
+HETATM    1  W     W     1       0.840  35.950  33.590  1.00  0.00 
+END
