@@ -1,6 +1,6 @@
 ### Lipid Nanoparticle Construction
 
-Here in you find the commands used for constructing the LNP systems studied in the [original paper](https://doi.org/10.26434/chemrxiv-2024-bf4n8).
+Here in you find the commands used for constructing the LNP systems studied in the [original paper](https://doi.org/10.1021/acs.jctc.5c01207).
 
 Please be aware that we provide only **_guidelines_** for building LNP structures, **_NOT_** an automated protocol. 
 The component ratios and structural details may need to be adjusted based on your specific scientific question. These adjustments often require manual (hardcoded) changes to the scripts.

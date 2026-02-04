@@ -12,7 +12,7 @@ This repository provides:
       - Literature known Ionizable Lipids - `Lipid_parameters > Literature_known_lipids`;
       - Pre-built Ionizable Lipids - `Lipid_parameters > Ionizable_lipid_library`;
       - Ionizable Lipid Fragments - `Lipid_parameters > Fragments`.
-      - Lipid parameters adapted according to [Pedersen et.al](https://doi.org/10.26434/chemrxiv-2024-8bjrr) - `Lipid_parameters > Refined_tail_Parameters`
+      - Lipid parameters adapted according to [Pedersen et.al](ihttps://doi.org/10.1021/acscentsci.5c00755) - `Lipid_parameters > Refined_tail_Parameters`
    - Detailed descriptions on how to generate new lipid itps are provided in `Lipid_parameters > Scripts`.  
 
 2. **Case Studies and Protocols:**  
@@ -24,7 +24,7 @@ This repository provides:
 
 ## Citations
 If you use the parameters/protocols from this repository, please cite the following publication:  
-[Kjølbye, L. R., Valério, M., Paloncýová, M., Borges-Araújo, L., Pestana-Nobles, R., Grünewald, F., ... & Souza, P. C. (2024). Martini 3 building blocks for Lipid Nanoparticle design.](https://doi.org/10.26434/chemrxiv-2024-bf4n8)
+[Kjølbye, L. R., Valério, M., Paloncýová, M., Borges-Araújo, L., Pestana-Nobles, R., Grünewald, F., ... & Souza, P. C. (2024). Martini 3 building blocks for Lipid Nanoparticle design.](https://pubs.acs.org/doi/10.1021/acs.jctc.5c01207)
 
 
 Please also cite the following packages/publications: 

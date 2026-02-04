@@ -1,4 +1,4 @@
-A subset of the `Literature_known_lipids` with refined tail parameters as described in [Pedersen et.al](https://doi.org/10.26434/chemrxiv-2024-8bjrr).
+A subset of the `Literature_known_lipids` with refined tail parameters as described in [Pedersen et.al](https://pubs.acs.org/doi/10.1021/acscentsci.5c00755).
 
 | Lipid                 | SMILES                                                                                                
 |-----------------------|----------------------------------------------------------------------------
