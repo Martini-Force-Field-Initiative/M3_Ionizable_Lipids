@@ -37,9 +37,9 @@ S12  1
 ;  i  j  k   funct   angle   force.c.
    1       2       3       2     118      15  ;OH-NP-CA
    1       2       8       2     118      15  ;OH-NP-CB
-   3       5       6       2     118.5    15  ;CA-NP-CB 
-   2       3       5       2     150      35  ;NP-CA-GLA 
-   2       8      10       2     150      35  ;NP-CB-GLB 
+   3       2       8       2     118.5    15  ;CA-NP-CB 
+   2       3       4       2     150      35  ;NP-CA-GLA 
+   2       8       9       2     150      35  ;NP-CB-GLB 
    3       4       5       2     120      55  ;CA-GLA-CA1 
    8       9      10       2     120      55  ;CB-GLB-CBX 
    4       5       6       a_SN4a_C1_C1       ;GLA-CA1-CA2
